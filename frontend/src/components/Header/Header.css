@@ -1,0 +1,126 @@
+
+ .header {
+    /* height: 100vw; */
+    height: 200px;
+  
+    width: 90%;
+    /* margin: 10px auto; */
+    margin: auto;
+    background: url('/new2.png') no-repeat center center;
+    background-size: contain;
+    position: relative;
+    overflow: hidden; 
+    margin-top: 10px;
+    background-color:white;
+}
+
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+   
+    /* border-radius: 15px; */
+    
+    
+   
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; 
+} 
+
+/* Hover effect: zoom-in and elevate with a stronger shadow */
+.header img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px white;
+   
+}
+
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px);
+}
+
+.header-contents p {
+    color: white;
+    font-size: max(1vw, 14px);
+}
+
+.header-contents button {
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+}
+
+@media (max-width: 1050px) {
+    .header {
+        height: 38vw;
+        width: auto;
+    }
+    .header-contents {
+        max-width: 45%;
+        left: 5vw; /* Adjusted alignment */
+    }
+}
+
+@media (max-width: 750px) {
+    .header {
+        height: 45vw;
+    }
+    .header-contents {
+        max-width: 70%;
+        left: 4vw; /* Reduced to avoid overflow */
+    }
+    .header-contents h2 {
+        font-size: max(6vw, 20px);
+    }
+    .header-contents p {
+        display: none;
+    }
+    .header-contents button {
+        padding: 2vw 4vw;
+        font-size: max(2vw, 12px);
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        height: 50vw;
+    }
+    .header-contents {
+        max-width: 90%; /* Increase content width */
+        bottom: 5%;
+        left: 2vw; /* Reduce left margin */
+        right: 2vw; /* Added to prevent space on the right */
+    }
+    .header-contents h2 {
+        font-size: max(7vw, 18px);
+    }
+    .header-contents button {
+        padding: 3vw 6vw;
+        font-size: max(3vw, 11px);
+    }
+}
+
+
+
+
+
