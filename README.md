@@ -4,8 +4,11 @@ This is a full-stack food delivery website built using the MERN (MongoDB, Expres
 ## Features
 ## Client Side Features
 
-## User Registration & Login: ### Users can create an account, log in, and manage their profiles.
-## Add to Cart & Checkout: ###  Users can add items to their cart, customize orders, and proceed with secure checkout.
-## Order Tracking:### Real-time tracking of order status.
+## User Registration & Login: 
+Users can create an account, log in, and manage their profiles.
+## Add to Cart & Checkout:
+Users can add items to their cart, customize orders, and proceed with secure checkout.
+## Order Tracking:
+Real-time tracking of order status.
 
 
