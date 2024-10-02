@@ -43,7 +43,7 @@ Check out the live demo here: [live demo](https://fooddelivery-frontend-r65g.onr
 ## ⚙️ Installation
 ### 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/Chhavipatel/fooddelivery.git
+git clone https://github.com/Chhavipatel/food-delivery-website.git
 ```
 
 ### 2. **Install Dependencies:**
