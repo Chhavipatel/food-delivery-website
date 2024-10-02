@@ -4,7 +4,7 @@
 This is a full-stack **food delivery website** built using the **MERN** (MongoDB, Express.js, React.js, Node.js) stack. The platform allows customers to browse various food items, add them to the cart, place orders, and track their delivery status.
 
 
-Check out the **live demo** here: [https://fooddelivery-frontend-r65g.onrender.com/](#) _()_
+Check out the **live demo** here: [live demo](#) _(https://fooddelivery-frontend-r65g.onrender.com/)_
 ---
 
 ## 🚀 Features
