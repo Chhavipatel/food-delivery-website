@@ -73,7 +73,7 @@ npm run server
 ## 🌐 Deployment
 The project is hosted on **Render**.
 
-Check out the **live demo** here: [Food Delivery Website Demo](#) _(https://fooddelivery-frontend-r65g.onrender.com/)_
+Check out the **live demo** here: [https://fooddelivery-frontend-r65g.onrender.com/](#) _()_
 
 
 
