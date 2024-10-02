@@ -51,7 +51,7 @@ npm install
 ```
 ```bash
 # Move to the frontend directory
-cd client
+cd frontend
 npm install
 ```
 ### 3. Set Up Environment Variables:
@@ -59,7 +59,7 @@ Create a .env file in the root directory and add the following keys:
 ```bash
 MONGODB_URI=<your-mongodb-connection-string>
 JWT_SECRET=<your-secret-key>
-PORT=5000
+PORT=8080
 ```
 ### 4. Run the Application:
 Start both the frontend and backend servers:
