@@ -5,6 +5,8 @@ This is a full-stack **food delivery website** built using the **MERN** (MongoDB
 
 
 Check out the **live demo** here: [live demo](#) _(https://fooddelivery-frontend-r65g.onrender.com/)_
+Check out the live demo here: [live demo](https://fooddelivery-frontend-r65g.onrender.com/).
+
 ---
 
 ## 🚀 Features
